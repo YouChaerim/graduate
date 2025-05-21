@@ -1,0 +1,40 @@
+{
+  "text": {
+    "1시간": 0,
+    "30분": 2,
+    "2시간": 1,
+    "rm": 3,
+    "안녕": 8,
+    "잘": 11,
+    "지냈어": 13,
+    "너": 6,
+    "뭐해": 7,
+    "오늘": 10,
+    "날씨": 5,
+    "어때": 9,
+    "그냥": 4,
+    "테스트": 14,
+    "중이야": 12
+  },
+  "intent": {
+    "schedule_meeting": 1,
+    "chitchat": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 9,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 10,
+    "action_unlikely_intent": 11,
+    "action_back": 0,
+    "action_extract_slots": 5
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

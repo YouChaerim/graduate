@@ -1,0 +1,34 @@
+[
+  {
+    "name": "deadline",
+    "pattern": "[0-9]{1,2}일"
+  },
+  {
+    "name": "deadline",
+    "pattern": "내일"
+  },
+  {
+    "name": "deadline",
+    "pattern": "다음 주"
+  },
+  {
+    "name": "deadline",
+    "pattern": "오늘"
+  },
+  {
+    "name": "deadline",
+    "pattern": "이번 주"
+  },
+  {
+    "name": "meeting_type",
+    "pattern": "대면"
+  },
+  {
+    "name": "meeting_type",
+    "pattern": "온라인"
+  },
+  {
+    "name": "participants",
+    "pattern": "(\\b김성호\\b|\\b이수빈\\b|\\b정해인\\b|\\b박보검\\b|\\b윤하\\b|\\b최예진\\b|\\b\\[가\\-힣\\]\\{2,3\\}\\b)"
+  }
+]

@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - schedule_meeting
+
+entities:
+  - participants
+  - duration
+  - deadline
+  - meeting_type
+  - urgency
+  - preferred_day
+
+slots:
+  participants:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: participants
+  duration:
+    type: text
+    influence_conversation: false
+    initial_value: "30분"
+    mappings:
+      - type: from_entity
+        entity: duration
+  deadline:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: deadline
+  meeting_type:
+    type: text
+    influence_conversation: false
+    initial_value: "대면"
+    mappings:
+      - type: from_entity
+        entity: meeting_type
+  urgency:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: urgency
+  preferred_day:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: preferred_day
+
+responses: {}
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

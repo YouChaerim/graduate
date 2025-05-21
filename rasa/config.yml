@@ -1,0 +1,48 @@
+recipe: default.v1
+assistant_id: 20250416-193507-snow-pseudonym
+language: ko
+
+pipeline:
+  - name: WhitespaceTokenizer
+    intent_tokenization_flag: False
+    token_pattern: None
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 300
+    entity_recognition: True
+    use_masked_language_model: True
+    number_of_transformer_layers: 2
+    constrain_similarities: true
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.1
+  - name: RegexEntityExtractor
+    use_lookup_tables: false
+    use_regexes: true
+    use_word_boundaries: true
+    entity_extractor_patterns:
+      - entity: deadline
+      - entity: meeting_type
+      - entity: urgency
+      - entity: preferred_day
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+  - name: UnexpecTEDIntentPolicy
+    max_history: 5
+    epochs: 100
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true

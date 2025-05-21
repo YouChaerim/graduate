@@ -1,0 +1,235 @@
+version: "3.1"
+
+nlu:
+
+- regex: participants
+  examples: |
+    - [가-힣]{2,3}( [가-힣]{2,3})*
+
+- regex: deadline
+  examples: |
+    - 오늘
+    - 내일
+    - 다음 주
+    - 이번 주
+    - [0-9]{1,2}일
+
+- regex: meeting_type
+  examples: |
+    - 대면
+    - 온라인
+    - 비대면
+
+- regex: urgency
+  examples: |
+    - 빠르게
+
+- regex: preferred_day
+  examples: |
+    - 월요일
+    - 화요일
+    - 수요일
+    - 목요일
+    - 금요일
+    - 토요일
+    - 일요일
+
+
+- intent: schedule_meeting
+  examples: |
+    - [김성호](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [박보검](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [이수빈](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [정해인](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [김태우](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [윤하](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [김성호](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [박지민](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [조유리](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [정국](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [이수빈](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김하늘](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [이도윤](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [강지훈](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [유재석](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [정유미](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [박보검](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [서예지](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [이민정](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [박서준](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [홍수아](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [윤소희](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [전지현](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [서지후](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [김세정](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [이채은](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [이윤성](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [한소희](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [이하늘](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [김소희](participants) [내일](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [김성호 이수빈](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [박보검](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [김하늘](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [이수빈 정해인 조유리](participants) [내일](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [윤하 최예진](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [강민우 김예진 이준호](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [정수빈](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [김태형 박보영 한소희](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [박재민 이도현](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [윤소희 서지후 문지훈](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [홍지윤 조세호 전지현](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [이정민 김태우 유재석](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김하늘 이민재 이찬혁 이하이](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [김유진 박태환 정해인 김성호](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [김연아 이강인 박찬호](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [이도현 김하늘 정호석](participants) [내일](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [서강준 박보영 한소희](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [김세정 나은 임윤아](participants) [다음 주](deadline) [30분](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [이정후 박혜진 김태리](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [박지민 전정국 김석진](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [김민재 이성경 정유미](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [조세호 이경규 김구라](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [정유진 이하늘 백예린 김하늘](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [김소현 조하영 황재민 정지우](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [김남길 이나영 이현우](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [전소민 양세찬 하하 송혜교](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [유하늘 윤도현 정윤아](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [이수빈 박지훈 최예진](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [김지민 서예린 김태형](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [정채연 박재범 김민재](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김성호 이수빈](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [정해인 박보검 김태우](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이유진](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [조유리 김태형 박소윤](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [전소민 양세찬 하하](participants) [오늘](deadline) [30분](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [서지훈 정유진 김예린](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [토요일](preferred_day)
+    - [유재석](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [일요일](preferred_day)
+    - [김하늘 박서준](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [이도현 서현 김유정 김재환](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [송혜교 이동욱 박보영 김종국 하하](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [전지현 유나](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [김연아 이강인 박찬호](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [문가영 서현진 김소현](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [이수빈 정해인 최예진](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [장도연 이상민 김종국](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [토요일](preferred_day)
+    - [윤하 진영 김하늘](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [일요일](preferred_day)
+    - [정호석 김지민](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이채은 박현빈 최수정 임세진](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [전하린 백현 수호 디오](participants) [오늘](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [태연 티파니 서현](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [정채연 박재범 김민재](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [조세호 이경규 김구라](participants) [이번 주 금요일](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [강다니엘 장원영 김하나 백승우](participants) [내일 오전](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [김소현 이윤성 조하영 황재민 정지우](participants) [다음 주 금요일](deadline) [30분](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [송혜교 이동욱 박재범 정윤아](participants) [내일 오후](deadline) [30분](duration) [온라인](meeting_type) [토요일](preferred_day)
+    - [박진주 서현 김현우 임지호 문채원](participants) [이번 주 목요일](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김지민 정예린 김세정](participants) [내일 오후](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [조수아 서도윤 김예린 이태용](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [정유진 이유정 김혜리](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [박정민 한지민 이도경 최수연](participants) [다음 주 화요일](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [김성호](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [이수빈 이정민](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [박보검 유재석 조세호](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [김성호 이수빈 정해인 최예진](participants) [금요일](deadline) [2시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [이정민 김태우 박지성 송지효 이병헌](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [정해인](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [김성호 이수빈](participants) [다음 주](deadline) [2시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [박지민 정유나 조유리](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [장원영 안유진 김민재 최예나](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [유재석 조세호 김구라 김성호 이수빈](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [정지우](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [박보검 이수빈](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [윤하 정유진 최다윤 김태우](participants) [내일](deadline) [30분](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [김성호 정해인 윤소희 송혜교 이준호](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [정호석 유재석 김도윤 김하늘 문가영](participants) [다음 주](deadline) [2시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [이수빈](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [김태형 박보검](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [전정국 정국 유나](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [이찬혁 이하이 유승호 김혜리](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [장하늘 박소윤 김민재 박하늘 김하늘](participants) [다음 주](deadline) [2시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [김예진](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [김소희 김지민](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [최유진 박현빈 이민재 김소현](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [강서영 서지훈 윤지성 박서준 문가영](participants) [이번 주](deadline) [2시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [윤하 정호석 김하늘 이도현 송중기](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [박지민](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [유재석 조세호](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [김성호 이수빈 정해인](participants) [내일](deadline) [2시간](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [강하늘 김예진 장도연 이상민](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [송지효 전소민 양세찬 하하 유재석](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [김성호 이수빈](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [박보검 윤하](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [정해인 김태우](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [서유진 이도윤](participants) [이번 주](deadline) [2시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [김하늘 조유리](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [이준호 박지훈 최다윤](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [문가영 이민재 김하늘](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [장원영 안유진 김태우](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [전소민 양세찬 하하](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [유재석 조세호 김종국](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [박지민 전정국 김석진](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [윤소희 김소희 김세정](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [김연아 이강인 박찬호](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [정호석 유재석 김도윤](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [서강준 박보영 한소희](participants) [이번 주](deadline) [2시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [조인성 정채연 김세정](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [박서준 송지효 정유미](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [강다니엘 장원영 김하나](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [송혜교 이동욱 박재범](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [이주연 서지훈 박소민 강지훈](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [김채원 유승호 최정우 문가영](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [정유진 이유정 김혜리 이도현](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이찬혁 이하이 김현우 문채원](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [전지현 송혜교 정해인 김민재](participants) [이번 주](deadline) [2시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [이세영 전소민 하하 김지석](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [윤하 진영 김하늘 박재범](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [조수아 서도윤 김예린 이태용](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [백현 수호 디오 세훈](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이하늘 김태형 정국 RM](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [이도현 김하늘 전정국 서예지](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [목요일](preferred_day)
+    - [박하늘 이수빈](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [전소민 이도현](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [김연아 윤소희](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [문채원 하하](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [이정민 유재석](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [정지우 박보검 김지민](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [이태용 정호석 백현](participants) [이번 주](deadline) [2시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [홍지민 김세정 장도연](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [박진주 전지현 안유진](participants) [오늘](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [임윤아 정해인 김민재](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이도경 송혜교 김도윤 조세호](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [금요일](preferred_day)
+    - [김예린 문가영 김태우 조유리](participants) [내일](deadline) [30분](duration) [대면](meeting_type) [빠르게](urgency)
+    - [이하늘 정유미 윤지성 하하](participants) [오늘](deadline) [1시간](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김하늘 서현 김현우 박재범](participants) [이번 주](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [박지훈 윤소연 김지석 이도현](participants) [다음 주](deadline) [2시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [이하이 정채연 박보영 이세영](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [월요일](preferred_day)
+    - [김채원 유승호 서지훈 하하](participants) [다음 주](deadline) [30분](duration) [온라인](meeting_type) [수요일](preferred_day)
+    - [송지효 김하나 강지훈 박현빈](participants) [내일](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [정윤아 최정우 이성경 황재민](participants) [이번 주](deadline) [30분](duration) [온라인](meeting_type) [화요일](preferred_day)
+    - [임세진 정유진 김혜리 이유정](participants) [다음 주](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [정호석 서도윤 이하늘 유재석](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [전하린 김예진 이도윤 하하](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [수요일](preferred_day)
+    - [김세정 장하늘 김태리 정채연](participants) [다음 주](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [김지민 김소희 서유진 백승우](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [윤하 김하늘 강민우 문지훈](participants) [내일](deadline) [1시간](duration) [온라인](meeting_type) [월요일](preferred_day)
+    - [강다니엘 조하영 김소현 임윤아](participants) [오늘](deadline) [30분](duration) [대면](meeting_type) [화요일](preferred_day)
+    - [이유정 이세영 최예진 조승우](participants) [다음 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [전소민 이민정 김연아 하하](participants) [이번 주](deadline) [1시간](duration) [대면](meeting_type) [금요일](preferred_day)
+    - [유나 나은 문채원 김지석](participants) [내일](deadline) [30분](duration) [온라인](meeting_type) [목요일](preferred_day)
+    - [정유미 박하늘 백예린 윤소희](participants) [오늘](deadline) [1시간](duration) [대면](meeting_type) [빠르게](urgency)
+    - [정지우](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type) [빠르게](urgency)
+    - [정지우 김예진](participants) [이번 주](deadline) [1시간](duration) [온라인](meeting_type)
+    - [김예진 정유미 박지민](participants) [다음 주](deadline) [30분](duration) [대면](meeting_type)
+
+
+
+
+
+
+- intent: chitchat
+  examples: |
+    - 안녕
+    - 잘 지냈어?
+    - 너 뭐해?
+    - 오늘 날씨 어때?
+    - 그냥 테스트 중이야

@@ -1,0 +1,1752 @@
+[
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "30분",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "1시간",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "U-duration",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "안녕",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "잘 지냈어?",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "너 뭐해?",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "오늘 날씨 어때?",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ],
+  [
+    {
+      "text": "그냥 테스트 중이야",
+      "pos_tag": null,
+      "pattern": {
+        "deadline": false,
+        "participants": false
+      },
+      "dense_features": [],
+      "entity_tag": "O",
+      "entity_role_tag": "O",
+      "entity_group_tag": "O"
+    }
+  ]
+]

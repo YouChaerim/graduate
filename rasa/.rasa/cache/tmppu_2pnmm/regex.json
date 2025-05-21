@@ -1,0 +1,70 @@
+[
+  {
+    "name": "deadline",
+    "pattern": "[0-9]{1,2}일"
+  },
+  {
+    "name": "deadline",
+    "pattern": "내일"
+  },
+  {
+    "name": "deadline",
+    "pattern": "다음 주"
+  },
+  {
+    "name": "deadline",
+    "pattern": "오늘"
+  },
+  {
+    "name": "deadline",
+    "pattern": "이번 주"
+  },
+  {
+    "name": "meeting_type",
+    "pattern": "대면"
+  },
+  {
+    "name": "meeting_type",
+    "pattern": "비대면"
+  },
+  {
+    "name": "meeting_type",
+    "pattern": "온라인"
+  },
+  {
+    "name": "participants",
+    "pattern": "[가-힣]{2,3}( [가-힣]{2,3})*"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "금요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "목요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "수요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "월요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "일요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "토요일"
+  },
+  {
+    "name": "preferred_day",
+    "pattern": "화요일"
+  },
+  {
+    "name": "urgency",
+    "pattern": "빠르게"
+  }
+]
