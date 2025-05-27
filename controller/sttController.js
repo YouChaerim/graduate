@@ -2,6 +2,7 @@ const { exec } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
+const db = require('../db');
 
 // 🔧 정규화 함수 정의
 function normalizeText(text) {
@@ -56,7 +57,58 @@ function normalizeText(text) {
 //     });
 // };
 
-// ✅ 목업 음성 파일로 STT + Rasa 요청
+// ✅ participants 엔티티 필터링 함수
+async function filterValidParticipants(rawTextList, currentUserId) {
+    const [rows] = await db.query(`
+        SELECT u.name
+        FROM friends f
+        JOIN users u ON f.friend_id = u.id
+        WHERE f.user_id = ? AND f.status = 'accepted'
+    `, [currentUserId]);
+
+    const validNames = rows.map(r => r.name);
+    const result = [];
+
+    rawTextList.forEach(chunk => {
+        chunk.split(/\s+/).forEach(word => {
+        if (validNames.includes(word) && !result.includes(word)) {
+            result.push(word);
+        }
+        });
+    });
+
+    return result;
+}
+
+// 🔁 상대 날짜 + 요일 → 실제 날짜 변환
+function convertToDate(relativeText, preferredDay) {
+    const dayMap = {
+        '월요일': 1,
+        '화요일': 2,
+        '수요일': 3,
+        '목요일': 4,
+        '금요일': 5,
+        '토요일': 6,
+        '일요일': 0
+    };
+    const today = new Date();
+    let base = new Date();
+
+    if (relativeText === '이번 주') {
+        base.setDate(today.getDate() + (7 - today.getDay()));
+    } else if (relativeText === '다음 주') {
+        base.setDate(today.getDate() + (7 - today.getDay()) + 7);
+    }
+
+    if (preferredDay && dayMap[preferredDay] !== undefined) {
+        const dayDiff = (7 + dayMap[preferredDay] - base.getDay()) % 7;
+        base.setDate(base.getDate() + dayDiff);
+    }
+
+    return base.toISOString().split('T')[0];
+}
+
+// 🧪 MOCK용 STT + Rasa 연결
 exports.speechToTextMock = (req, res) => {
     const mockPath = path.join(__dirname, '../mock/minsang_test3.mp3');
     const command = `python3 whisper/stt.py ${mockPath}`;
@@ -70,19 +122,40 @@ exports.speechToTextMock = (req, res) => {
         const originalText = stdout.trim();
         const normalized = normalizeText(originalText);
 
-        console.log("🧾 원문:", originalText);
-        console.log("🧾 정규화된 문장:", normalized);
+        console.log('🧾 원문:', originalText);
+        console.log('🧾 정규화된 문장:', normalized);
 
         try {
         const rasaRes = await axios.post('http://localhost:5005/model/parse', {
             text: normalized,
         });
 
+        const participantRaw = rasaRes.data.entities
+            .filter(e => e.entity === 'participants')
+            .map(e => e.value);
+
+        const allWords = participantRaw.map(t => t.split(/\s+/)).flat();
+        const participants = await filterValidParticipants(allWords, 2);
+
+        const preferredDay = rasaRes.data.entities.find(e => e.entity === 'preferred_day')?.value || null;
+        const deadlineRaw = rasaRes.data.entities.find(e => e.entity === 'deadline')?.value || null;
+        const deadline = convertToDate(deadlineRaw, preferredDay);
+        const duration = rasaRes.data.entities.find(e => e.entity === 'duration')?.value === '1시간' ? 60 : 30;
+        const meeting_type = rasaRes.data.entities.find(e => e.entity === 'meeting_type')?.value || '온라인';
+        const urgency = normalized.includes('빠르게'); // 예시
+
         res.json({
-            original: originalText,
-            normalized,
-            rasa: rasaRes.data,
+        original: originalText,
+        normalized,
+        rasa: rasaRes.data,
+        participants,
+        deadline,
+        preferred_day: preferredDay,
+        duration,
+        meeting_type,
+        urgency
         });
+
         } catch (rasaError) {
         console.error('Rasa 연결 실패:', rasaError.message);
         res.status(500).json({ error: 'Rasa 분석 실패' });
